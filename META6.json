@@ -1,23 +1,36 @@
 {
-  "name" : "JSON::Marshal",
-  "tags" : [ "object", "serialisation", "JSON" ],
-  "authors" : [ "Jonathan Stowe <jns+git@gellyfish.co.uk>" ],
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "auth" : "github:jonathanstowe",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/JSON-Marshal.git"
+  "name": "JSON::Marshal",
+  "support": {
+    "source": "https://github.com/samcv/JSON-Marshal",
+    "bugtracker": "https://github.com/samcv/JSON-Marshal/issues"
   },
-  "source-url" : "git://github.com/jonathanstowe/JSON-Marshal.git",
-  "perl" : "6.c",
-  "build-depends" : [ ],
-  "provides" : {
-     "JSON::Marshal" : "lib/JSON/Marshal.pm"
-  },
-  "depends" : [ "JSON::Fast", "JSON::Name" ],
-  "test-depends" : [
-    "Test",
-	 "JSON::Fast"
+  "source-url": "git://github.com/samcv/JSON-Marshal.git",
+  "perl": "6.c",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends": [
+    
   ],
-  "description" : "Simple serialisation of objects to JSON",
-  "version" : "0.0.11"
+  "auth": "github:samcv",
+  "depends": [
+    "JSON::Fast",
+    "JSON::Name"
+  ],
+  "license": "Artistic-2.0",
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides": {
+    "JSON::Marshal": "lib/JSON/Marshal.pm"
+  },
+  "test-depends": [
+    "Test",
+    "JSON::Fast"
+  ],
+  "version": "0.0.11",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "description": "Simple serialisation of objects to JSON"
 }
